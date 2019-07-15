@@ -1,7 +1,15 @@
-def nyc_pigeon_organizer(pigeon_data)
-  pigeon_data.reduce({}) do |names,|
-    p memo
-    p pair
-    memo
-  end
-end
+def nyc_pigeon_organizer(data)
+  organized = {}
+
+#   data.each do |trait, options|
+#     options.each do |option, pigeons|
+#       pigeons.each do |pigeon|
+#         organized[pigeon] ||= {}
+#         organized[pigeon][trait] ||= []
+#         organized[pigeon][trait] << option.to_s
+#       end
+#     end
+#   end
+
+#   organized
+# end
